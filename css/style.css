@@ -1,0 +1,234 @@
+*{
+	padding:5px;
+	margin:0px;
+}
+
+/*
+	******************************
+	TEMPLATE GERAL
+*/
+
+.header{
+	background-color: #EE82EE;
+}
+
+#header_image{
+	width:350px;
+	height: 200px;
+	margin: auto;
+	display: block;
+}
+
+.nav{
+	background-color: #DA70D6;
+	margin: auto;
+}
+
+a:link{
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:visited{
+	color: #FFF;
+
+}
+
+a:hover{
+	color: #000;
+}
+
+/*
+	END TEMPLATE GERAL
+	******************************
+*/
+
+
+/* *********************************************************************************************************** */
+
+
+/*
+	******************************
+	LOGIN + CADSATRO
+*/
+
+.login{
+	margin: 20px auto;
+	width: 300px ;
+	border-radius: 20px;
+	background-color: #EE82EE;
+	padding: 20px;
+}
+
+
+.inputLogin{
+	width:100%;
+	padding: 12px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.inputLoginBtn{
+	width:100%;
+	background-color: #DA70D6;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+textarea{
+	min-width: 100%;
+	max-width: 100%;
+	width:100%;
+	max-height: 150px;
+	min-height: 100px;
+	padding: 12px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+/*
+	END LOGIN + CADSATRO
+	******************************
+*/
+
+
+/* *********************************************************************************************************** */
+
+/*
+	******************************
+	WHO
+*/
+
+.div_who{
+	margin: 10px auto;
+	border-radius: 20px;
+	background-color: #DDA0DD;
+	width: 500px;
+	padding: 10px;
+
+}
+
+.div_who h1{
+	text-align: center;
+	font-size: 44px;
+	color: #FFF;
+}
+
+.div_who p{
+	color: ##000 ;
+}
+
+
+/*
+	END WHO
+	******************************
+*/
+
+/* *********************************************************************************************************** */
+
+/*
+	******************************
+	HORARIOS
+*/
+
+.table_horario{
+	margin: 10px auto;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #DDA0DD;
+}
+
+.table_horario td{
+	color: #FFF;
+}
+
+/*
+	END HORARIOS
+	******************************
+*/
+
+
+/* *********************************************************************************************************** */
+
+
+/*
+	******************************
+	PROFILE
+*/
+
+.div_profile{
+	margin: 10px auto;
+	background-color: #DDA0DD;
+	width: 500px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.div_profile a{
+
+}
+
+
+/*
+	END PROFILE
+	******************************
+*/
+
+
+/* *********************************************************************************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

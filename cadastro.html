@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<meta charset="UTF-8">
+    <meta name="author" content="Cesar Gardellim">
+    <meta name="keywords" content="Pet, Petshop, PetLuli">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">		
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="js/scripts.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html">
+            <img src="img/header_image.jpeg" alt="PetLuli" title="PetLuli" id="header_image"/>
+        </a>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Nav -->
+    <nav class="nav">
+        <a href="galeria.html">Galeria</a>
+        <a href="horarios.html">Horarios</a>
+        <a href="contato.html">Contato</a>
+        <a href="quemsomos.html">Quem Somos</a>
+    </nav>
+    <!-- End Nav -->
+
+    <div class="login">
+        <form action="index.html">
+
+            <input type="text" class="inputLogin" placeholder="Login" autofocus="true" /><br>
+            <input type="password" class="inputLogin" placeholder="Password" id="pass1" onkeyup="checkPass(); return false;" /><br>
+            <input type="password" class="inputLogin" placeholder="Re-type your password" id="pass2" onkeyup="checkPass(); return false;" /><br>
+            <input type="email" class="inputLogin" placeholder="Email"/><br>
+            <input type="submit" class="inputLoginBtn" value="Cadastrar" id="btnCadastrar" />
+
+        </form>
+    </div>
+
+
+</body>
+</html>
